@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D35D73F320FAD1A1005C204D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D35D73F220FAD1A1005C204D /* AppDelegate.m */; };
+		D35D73F620FAD1A1005C204D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35D73F520FAD1A1005C204D /* ViewController.m */; };
+		D35D73F920FAD1A1005C204D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35D73F720FAD1A1005C204D /* Main.storyboard */; };
+		D35D73FB20FAD1A1005C204D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35D73FA20FAD1A1005C204D /* Assets.xcassets */; };
+		D35D73FE20FAD1A1005C204D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35D73FC20FAD1A1005C204D /* LaunchScreen.storyboard */; };
+		D35D740120FAD1A1005C204D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35D740020FAD1A1005C204D /* main.m */; };
+		D35D740B20FAD1A2005C204D /* CreditPlateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35D740A20FAD1A2005C204D /* CreditPlateTests.m */; };
+		D35D741620FAD1A2005C204D /* CreditPlateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35D741520FAD1A2005C204D /* CreditPlateUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D35D740720FAD1A2005C204D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35D73E620FAD1A1005C204D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35D73ED20FAD1A1005C204D;
+			remoteInfo = CreditPlate;
+		};
+		D35D741220FAD1A2005C204D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35D73E620FAD1A1005C204D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35D73ED20FAD1A1005C204D;
+			remoteInfo = CreditPlate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D35D73EE20FAD1A1005C204D /* CreditPlate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditPlate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35D73F120FAD1A1005C204D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D35D73F220FAD1A1005C204D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D35D73F420FAD1A1005C204D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D35D73F520FAD1A1005C204D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D35D73F820FAD1A1005C204D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D35D73FA20FAD1A1005C204D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35D73FD20FAD1A1005C204D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D35D73FF20FAD1A1005C204D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35D740020FAD1A1005C204D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D35D740620FAD1A2005C204D /* CreditPlateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditPlateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35D740A20FAD1A2005C204D /* CreditPlateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditPlateTests.m; sourceTree = "<group>"; };
+		D35D740C20FAD1A2005C204D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35D741120FAD1A2005C204D /* CreditPlateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditPlateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35D741520FAD1A2005C204D /* CreditPlateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditPlateUITests.m; sourceTree = "<group>"; };
+		D35D741720FAD1A2005C204D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D35D73EB20FAD1A1005C204D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35D740320FAD1A2005C204D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35D740E20FAD1A2005C204D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D35D73E520FAD1A1005C204D = {
+			isa = PBXGroup;
+			children = (
+				D35D73F020FAD1A1005C204D /* CreditPlate */,
+				D35D740920FAD1A2005C204D /* CreditPlateTests */,
+				D35D741420FAD1A2005C204D /* CreditPlateUITests */,
+				D35D73EF20FAD1A1005C204D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D35D73EF20FAD1A1005C204D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D35D73EE20FAD1A1005C204D /* CreditPlate.app */,
+				D35D740620FAD1A2005C204D /* CreditPlateTests.xctest */,
+				D35D741120FAD1A2005C204D /* CreditPlateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35D73F020FAD1A1005C204D /* CreditPlate */ = {
+			isa = PBXGroup;
+			children = (
+				D35D73F120FAD1A1005C204D /* AppDelegate.h */,
+				D35D73F220FAD1A1005C204D /* AppDelegate.m */,
+				D35D73F420FAD1A1005C204D /* ViewController.h */,
+				D35D73F520FAD1A1005C204D /* ViewController.m */,
+				D35D73F720FAD1A1005C204D /* Main.storyboard */,
+				D35D73FA20FAD1A1005C204D /* Assets.xcassets */,
+				D35D73FC20FAD1A1005C204D /* LaunchScreen.storyboard */,
+				D35D73FF20FAD1A1005C204D /* Info.plist */,
+				D35D740020FAD1A1005C204D /* main.m */,
+			);
+			path = CreditPlate;
+			sourceTree = "<group>";
+		};
+		D35D740920FAD1A2005C204D /* CreditPlateTests */ = {
+			isa = PBXGroup;
+			children = (
+				D35D740A20FAD1A2005C204D /* CreditPlateTests.m */,
+				D35D740C20FAD1A2005C204D /* Info.plist */,
+			);
+			path = CreditPlateTests;
+			sourceTree = "<group>";
+		};
+		D35D741420FAD1A2005C204D /* CreditPlateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D35D741520FAD1A2005C204D /* CreditPlateUITests.m */,
+				D35D741720FAD1A2005C204D /* Info.plist */,
+			);
+			path = CreditPlateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D35D73ED20FAD1A1005C204D /* CreditPlate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35D741A20FAD1A2005C204D /* Build configuration list for PBXNativeTarget "CreditPlate" */;
+			buildPhases = (
+				D35D73EA20FAD1A1005C204D /* Sources */,
+				D35D73EB20FAD1A1005C204D /* Frameworks */,
+				D35D73EC20FAD1A1005C204D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditPlate;
+			productName = CreditPlate;
+			productReference = D35D73EE20FAD1A1005C204D /* CreditPlate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D35D740520FAD1A2005C204D /* CreditPlateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35D741D20FAD1A2005C204D /* Build configuration list for PBXNativeTarget "CreditPlateTests" */;
+			buildPhases = (
+				D35D740220FAD1A2005C204D /* Sources */,
+				D35D740320FAD1A2005C204D /* Frameworks */,
+				D35D740420FAD1A2005C204D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35D740820FAD1A2005C204D /* PBXTargetDependency */,
+			);
+			name = CreditPlateTests;
+			productName = CreditPlateTests;
+			productReference = D35D740620FAD1A2005C204D /* CreditPlateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D35D741020FAD1A2005C204D /* CreditPlateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35D742020FAD1A2005C204D /* Build configuration list for PBXNativeTarget "CreditPlateUITests" */;
+			buildPhases = (
+				D35D740D20FAD1A2005C204D /* Sources */,
+				D35D740E20FAD1A2005C204D /* Frameworks */,
+				D35D740F20FAD1A2005C204D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35D741320FAD1A2005C204D /* PBXTargetDependency */,
+			);
+			name = CreditPlateUITests;
+			productName = CreditPlateUITests;
+			productReference = D35D741120FAD1A2005C204D /* CreditPlateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35D73E620FAD1A1005C204D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = xiaoyan;
+				TargetAttributes = {
+					D35D73ED20FAD1A1005C204D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D35D740520FAD1A2005C204D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D35D73ED20FAD1A1005C204D;
+					};
+					D35D741020FAD1A2005C204D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D35D73ED20FAD1A1005C204D;
+					};
+				};
+			};
+			buildConfigurationList = D35D73E920FAD1A1005C204D /* Build configuration list for PBXProject "CreditPlate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D35D73E520FAD1A1005C204D;
+			productRefGroup = D35D73EF20FAD1A1005C204D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D35D73ED20FAD1A1005C204D /* CreditPlate */,
+				D35D740520FAD1A2005C204D /* CreditPlateTests */,
+				D35D741020FAD1A2005C204D /* CreditPlateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D35D73EC20FAD1A1005C204D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35D73FE20FAD1A1005C204D /* LaunchScreen.storyboard in Resources */,
+				D35D73FB20FAD1A1005C204D /* Assets.xcassets in Resources */,
+				D35D73F920FAD1A1005C204D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35D740420FAD1A2005C204D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35D740F20FAD1A2005C204D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35D73EA20FAD1A1005C204D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35D73F620FAD1A1005C204D /* ViewController.m in Sources */,
+				D35D740120FAD1A1005C204D /* main.m in Sources */,
+				D35D73F320FAD1A1005C204D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35D740220FAD1A2005C204D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35D740B20FAD1A2005C204D /* CreditPlateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35D740D20FAD1A2005C204D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35D741620FAD1A2005C204D /* CreditPlateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D35D740820FAD1A2005C204D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35D73ED20FAD1A1005C204D /* CreditPlate */;
+			targetProxy = D35D740720FAD1A2005C204D /* PBXContainerItemProxy */;
+		};
+		D35D741320FAD1A2005C204D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35D73ED20FAD1A1005C204D /* CreditPlate */;
+			targetProxy = D35D741220FAD1A2005C204D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D35D73F720FAD1A1005C204D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35D73F820FAD1A1005C204D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D35D73FC20FAD1A1005C204D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35D73FD20FAD1A1005C204D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D35D741820FAD1A2005C204D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D35D741920FAD1A2005C204D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35D741B20FAD1A2005C204D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditPlate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = plate.CreditPlate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D35D741C20FAD1A2005C204D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditPlate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = plate.CreditPlate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D35D741E20FAD1A2005C204D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditPlateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = plate.CreditPlateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreditPlate.app/CreditPlate";
+			};
+			name = Debug;
+		};
+		D35D741F20FAD1A2005C204D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditPlateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = plate.CreditPlateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreditPlate.app/CreditPlate";
+			};
+			name = Release;
+		};
+		D35D742120FAD1A2005C204D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditPlateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = plate.CreditPlateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CreditPlate;
+			};
+			name = Debug;
+		};
+		D35D742220FAD1A2005C204D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditPlateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = plate.CreditPlateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CreditPlate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35D73E920FAD1A1005C204D /* Build configuration list for PBXProject "CreditPlate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35D741820FAD1A2005C204D /* Debug */,
+				D35D741920FAD1A2005C204D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35D741A20FAD1A2005C204D /* Build configuration list for PBXNativeTarget "CreditPlate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35D741B20FAD1A2005C204D /* Debug */,
+				D35D741C20FAD1A2005C204D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35D741D20FAD1A2005C204D /* Build configuration list for PBXNativeTarget "CreditPlateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35D741E20FAD1A2005C204D /* Debug */,
+				D35D741F20FAD1A2005C204D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35D742020FAD1A2005C204D /* Build configuration list for PBXNativeTarget "CreditPlateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35D742120FAD1A2005C204D /* Debug */,
+				D35D742220FAD1A2005C204D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D35D73E620FAD1A1005C204D /* Project object */;
+}
