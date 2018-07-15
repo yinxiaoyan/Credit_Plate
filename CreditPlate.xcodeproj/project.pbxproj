@@ -15,6 +15,8 @@
 		D35D740120FAD1A1005C204D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D35D740020FAD1A1005C204D /* main.m */; };
 		D35D740B20FAD1A2005C204D /* CreditPlateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35D740A20FAD1A2005C204D /* CreditPlateTests.m */; };
 		D35D741620FAD1A2005C204D /* CreditPlateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35D741520FAD1A2005C204D /* CreditPlateUITests.m */; };
+		D35D742620FAD1CA005C204D /* W_CreditNumView.m in Sources */ = {isa = PBXBuildFile; fileRef = D35D742520FAD1C9005C204D /* W_CreditNumView.m */; };
+		D35D742A20FAD2B4005C204D /* UIView+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = D35D742920FAD2B3005C204D /* UIView+Style.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		D35D741120FAD1A2005C204D /* CreditPlateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditPlateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35D741520FAD1A2005C204D /* CreditPlateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditPlateUITests.m; sourceTree = "<group>"; };
 		D35D741720FAD1A2005C204D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35D742420FAD1C9005C204D /* W_CreditNumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = W_CreditNumView.h; sourceTree = "<group>"; };
+		D35D742520FAD1C9005C204D /* W_CreditNumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = W_CreditNumView.m; sourceTree = "<group>"; };
+		D35D742820FAD2B3005C204D /* UIView+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Style.h"; sourceTree = "<group>"; };
+		D35D742920FAD2B3005C204D /* UIView+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Style.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		D35D73F020FAD1A1005C204D /* CreditPlate */ = {
 			isa = PBXGroup;
 			children = (
+				D35D742720FAD2B3005C204D /* Category */,
+				D35D742320FAD1C9005C204D /* View */,
 				D35D73F120FAD1A1005C204D /* AppDelegate.h */,
 				D35D73F220FAD1A1005C204D /* AppDelegate.m */,
 				D35D73F420FAD1A1005C204D /* ViewController.h */,
@@ -130,6 +138,24 @@
 				D35D741720FAD1A2005C204D /* Info.plist */,
 			);
 			path = CreditPlateUITests;
+			sourceTree = "<group>";
+		};
+		D35D742320FAD1C9005C204D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D35D742420FAD1C9005C204D /* W_CreditNumView.h */,
+				D35D742520FAD1C9005C204D /* W_CreditNumView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D35D742720FAD2B3005C204D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D35D742820FAD2B3005C204D /* UIView+Style.h */,
+				D35D742920FAD2B3005C204D /* UIView+Style.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35D742620FAD1CA005C204D /* W_CreditNumView.m in Sources */,
 				D35D73F620FAD1A1005C204D /* ViewController.m in Sources */,
 				D35D740120FAD1A1005C204D /* main.m in Sources */,
+				D35D742A20FAD2B4005C204D /* UIView+Style.m in Sources */,
 				D35D73F320FAD1A1005C204D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
